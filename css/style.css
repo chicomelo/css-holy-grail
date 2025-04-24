@@ -64,7 +64,7 @@ section{
 @media screen and (max-width: 768px) {
 
   :root{
-    --header-footer-height: 6vh;
+    --header-footer-height: 8vh;
     --nav-aside-width: 100vw;
   }
 
@@ -79,8 +79,6 @@ section{
     justify-content: center;
   }
   section{
-    width: var(--nav-aside-width);
-    height: calc(100vh - (var(--header-footer-height) * 4));
     order: 1;
   }
   aside{
