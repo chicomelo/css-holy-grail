@@ -1,6 +1,6 @@
 :root{
   --header-footer-height: 10vh;
-  --nav-aside-width: 15vw;
+  --nav-aside-width: 16vw;
 }
 
 html, body, div, span,
@@ -38,8 +38,8 @@ header, footer{
 }
 
 main{
-  height: calc(100vh - (var(--header-footer-height) * 2));
   display: flex;
+  flex-grow: 1;
 }
 
 nav, aside{
@@ -57,8 +57,8 @@ aside{
 
 section{
   background-color: gainsboro;
-  width: calc(100vw - (var(--nav-aside-width) * 2));
   padding: 0.35em;
+  flex-grow: 1;
 }
 
 @media screen and (max-width: 768px) {
